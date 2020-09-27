@@ -1,0 +1,18 @@
+{
+	"root": true,
+	"parserOptions": {
+		"parser": "babel-eslint",
+		"sourceType": "module"
+	},
+
+	"extends": [
+	  	"@nuxtjs"
+	],
+
+	"rules": {
+		"indent": ["error", "tab"],
+		"vue/html-indent": ["error", "tab"],
+		"no-tabs": 0,
+		"padded-blocks": ["error", "always"]
+	}
+}

@@ -1,0 +1,14 @@
+# Static generate
+dist
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Static file
+static

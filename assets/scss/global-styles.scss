@@ -1,0 +1,70 @@
+@import 'font-calc';
+
+* {
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: $hover-color;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+html {
+    background-color: $basic-color;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+.fade-in,
+.fade-out {
+	transition: opacity 0.5s;
+}
+
+.fade-in {
+	opacity: 1;
+}
+
+.fade-out {
+	opacity: 0;
+}
+
+.btn-link {
+	color: $white-color;
+	transition: all .3s;
+
+	&:hover {
+		color: $hover-color;
+	}
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.white-text {
+	color: $white-color;
+}
+
+.bg-white {
+	background-color: $white-color;
+}
+
+.title {
+	font-size: 2.5em;
+}
+
+.subtitle {
+	font-size: 1.5em;
+}
+
+.logo {
+	width: 90px;
+}
